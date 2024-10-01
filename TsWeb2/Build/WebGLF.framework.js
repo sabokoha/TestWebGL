@@ -1993,13 +1993,13 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  3195392: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
- 3195453: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
- 3195517: function() {return Module.webglContextAttributes.powerPreference;},  
- 3195575: function() {Module['emscripten_get_now_backup'] = performance.now;},  
- 3195630: function($0) {performance.now = function() { return $0; };},  
- 3195678: function($0) {performance.now = function() { return $0; };},  
- 3195726: function() {performance.now = Module['emscripten_get_now_backup'];}
+  3195936: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
+ 3195997: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
+ 3196061: function() {return Module.webglContextAttributes.powerPreference;},  
+ 3196119: function() {Module['emscripten_get_now_backup'] = performance.now;},  
+ 3196174: function($0) {performance.now = function() { return $0; };},  
+ 3196222: function($0) {performance.now = function() { return $0; };},  
+ 3196270: function() {performance.now = Module['emscripten_get_now_backup'];}
 };
 
 
@@ -20257,6 +20257,17 @@ function invoke_iiij(index,a1,a2,a3,a4) {
   }
 }
 
+function invoke_ij(index,a1,a2) {
+  var sp = stackSave();
+  try {
+    return dynCall_ij(index,a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (e !== e+0) throw e;
+    _setThrew(1, 0);
+  }
+}
+
 function invoke_viijjii(index,a1,a2,a3,a4,a5,a6,a7,a8) {
   var sp = stackSave();
   try {
@@ -20701,17 +20712,6 @@ function invoke_jdii(index,a1,a2,a3) {
   var sp = stackSave();
   try {
     return dynCall_jdii(index,a1,a2,a3);
-  } catch(e) {
-    stackRestore(sp);
-    if (e !== e+0) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_ij(index,a1,a2) {
-  var sp = stackSave();
-  try {
-    return dynCall_ij(index,a1,a2);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
