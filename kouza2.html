@@ -1,17 +1,36 @@
-<H5>背景を表示してみよう</H5>
+<!DOCTYPE html>
+<html>
+<head>
+<title>背景を表示してみよう</title>
+</head>
+<body>
+ <table border="1">
+<H3>背景を表示してみよう</H3>
+    <tr>
+      <td>
 前回、背景が表示されるサンプルを見たので、今回は実際に背景を変更してみます。<BR>
 まずは背景に表示したい絵を用意して、PictureBGの中に入れます。<BR>
-<img src="./AIBG1.png"><BR>
 とりあえず、動作テスト用のファイルを用意したのでこちらを落として使ってみてください。<BR>
-もしくは、基礎編をすべてやる場合はこちらのセットを落としてください<BR>
-<a href="https://github.com/sabokoha/TestWebGL/blame/main/K_FullSet.zip" target="_blank">基礎編素材パック</a>
+</td><td>
+<img src="./AIBG1.png" width="320">
+</td></tr>
 <BR>
+<tr><td>
 minisina.txtに二文加えます。<BR>
+Hello World!の後に左にある2文を加えます。
+</td><td>
 bg,2<BR>
 新しい背景にします<BR>
-こちらをHello World!の後に入れます。<BR>
+<tr><td>
 CHARSEET.txtに今回追加した文章に対応する背景を追加します。<BR>
-BG,1,2,PLUSG,pngとしておきました。<BR>
+<BR>
 登録が2番目になるので、３番目の部分が2になります。<BR>
 背景の名前、拡張子は画像に合わせて変わります。<BR>
 画像ですが、基本的にjpg及びpngに対応しているのでどちらかの画像を用意してください。<BR>
+最終的に本体で動かしてみて動いたら成功です
+<BR>
+</td><td>
+BG,11,2,AIBG1,png</td></tr>
+  </table>
+</body>
+</html>

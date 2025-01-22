@@ -1,19 +1,43 @@
-<H5>音楽を変更してみよう</H5>
+<!DOCTYPE html>
+<html>
+<head>
+<title>音楽を変更してみよう</title>
+</head>
+<body>
+ <table border="1">
+<H3>音楽を変更してみよう</H3>
+    <tr>
+      <td>
 前回、名前の変更を行いましたが、今回は音楽をつけてみようと思います<BR>
 今回はこちらの音楽をBGMとして使います。<BR>
+</td><td>
     <audio controls>
         <source src="186_BPM80.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio><BR>
+</td>
+</tr>
+<tr>
+<td>
 minisina.txtに二文加えます。<BR>
-ms,1<BR>
-音楽を変更します<BR>
 こちらを前回の文章の後に入れます。<BR>
 音楽は１区切りになっています<BR>
+</td>
+<td>
+ms,1<BR>
+音楽を変更します<BR>
+</td>
+</tr>
+<tr>
+<td>
 CHARSEET.txtに今回追加した文章に対応する文字を追加します。<BR>
-BM,13,1,ttmusic1,ogg<BR>
 音楽の認証用の文字はBMになっています。背景の場合はBGでしたが、それの音楽版という感じでしょうか<BR>
 音楽ファイルですが、musicというフォルダに実際に動かすファイルで対応する拡張子の音楽(Mp3orOgg)を入れて動かします。
 後は実際にこれを動かしてみて確認してみてください<BR>
-
-
+</td><td>
+BM,13,1,ttmusic1,ogg<BR>
+</td>
+</tr>
+  </table>
+</body>
+</html>
