@@ -1,1 +1,1 @@
-﻿UNIVARSALSYSTEM,kozatxt,true
+﻿"https://sabokoha.github.io/TestWebGL/WGLT/StreamingAssets/",kozatxt,false
