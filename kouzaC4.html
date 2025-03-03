@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>アセットバンドルを作ろう</title>
+</head>
+<body>
+ <table border="1">
+<H3>アセットバンドルを作ろう</H3>
+    <tr>
+      <td>
+まずはUnityをインストールして、プロジェクトを作ります<BR>
+</td><td><img src="./AssetMake.jpg" alt="背景" width="320" height="240"></td></tr>
+    <tr>
+      <td>
+プロジェクトを作った後、Assets→Create→FolderでEditorというフォルダを作ります<BR>
+作ったらC#のスクリプトを作ります<BR>
+スクリプト名はBuildAssetBundlesにします。<BR>
+スクリプトに右のコードをコピーして貼り付けます<BR>
+</td><td>using UnityEditor;<BR>
+using System.IO;<BR>
+<BR>
+public class BuildAssetBundles<BR>
+{<BR>
+    [MenuItem("Assets/Build AssetBundles")]<BR>
+    static void BuildAllAssetBundles()<BR>
+    {<BR>
+        string outputPath = "Assets/StreamingAssets/AssetBundles"; // 出力先<BR>
+        if (!Directory.Exists(outputPath))<BR>
+        {<BR>
+            Directory.CreateDirectory(outputPath);<BR>
+        }<BR>
+<BR>
+        BuildPipeline.BuildAssetBundles(outputPath, BuildAssetBundleOptions.None, BuildTarget.WebGL);<BR>
+<BR>
+        EditorUtility.DisplayDialog("AssetBundle", "ビルドが完了しました！", "OK");<BR>
+    }<BR>
+}<BR>
+</td></tr>
+    <tr>
+      <td>
+次に、アセット化したいファイルをAssets内に放り込みます。フォルダ内などに入れてから入れるとわかりやすくていいかもしれません。<BR>
+放り込んだら、ファイルを指定すると右側のInspectorに色々な項目が出てくるので、一番下の方にあるアセットを好きな名前に変更してください。<BR>
+また、絵などの場合は上の方にあるTextureTypeをSpriteに変更しておきます。<BR>
+</td><td><img src="./AssetMake2.jpg" alt="背景" width="320" height="240"></td></tr>
+    <tr>
+      <td>
+一通り設定したら、Assets→Build AssetsBundlesでアセットバンドルを作ります<BR>
+作られたAssetsBundleはAssets→StreamingAssets→AssetBundles内に入っていますので状況に合わせて使ってください。<BR>
+</td><td><img src="./AssetMake3.jpg" alt="背景" width="320" height="240"></td></tr>
