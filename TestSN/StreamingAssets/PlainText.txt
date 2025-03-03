@@ -1,1 +1,10 @@
-﻿"https://sabokoha.github.io/TestWebGL/WGLT/StreamingAssets/",kozatxt,false
+﻿{
+	"DecryptDT":[
+			{
+				"BaseUrl":"https://sabokoha.github.io/TestWebGL/Stream/",
+				"fileName":"kozatxt",
+				"PassWord":"UNIVARSALSYSTEM",
+				"UsedZip":"false"
+			}
+	]
+}
