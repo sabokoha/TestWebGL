@@ -1,0 +1,10 @@
+﻿{
+	"DecryptDT":[
+			{
+				"BaseUrl":"https://sabokoha.github.io/TestWebGL/Stream/",
+				"fileName":"kozatxt",
+				"PassWord":"UNIVARSALSYSTEM",
+				"UsedZip":"false"
+			}
+	]
+}
