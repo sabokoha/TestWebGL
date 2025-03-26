@@ -1,10 +1,10 @@
 ﻿{
 	"DecryptDT":[
 			{
-				"fileName":"ZText.zip",
-				"BaseUrl":"BaseUrl",
+				"fileName":"jtext",
+				"BaseUrl":"https://sabokoha.github.io/TestWebGL/Stream",
 				"PassWord":"UNZIP",
-				"UsedZip":"true"
+				"UsedZip":"false"
 			}
 	]
 }
