@@ -2,9 +2,10 @@
 	"DecryptDT":[
 			{
 				"fileName":"jtext",
-				"BaseUrl":"https://sabokoha.github.io/TestWebGL/DStream/",
-				"PassWord":"PassD",
-				"UsedZip":"false"
+				"BaseUrl":"https://sabokoha.github.io/TestWebGL/Stream/",
+				"PassWord":"UNZIP",
+				"UsedZip":"false",
+				"DebugTxt":"true"
 			}
 	]
 }
