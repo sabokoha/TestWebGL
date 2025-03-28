@@ -1,0 +1,10 @@
+﻿{
+	"DecryptDT":[
+			{
+				"fileName":"ZText.zip",
+				"BaseUrl":"BaseUrl",
+				"PassWord":"UNZIP",
+				"UsedZip":"true"
+			}
+	]
+}
