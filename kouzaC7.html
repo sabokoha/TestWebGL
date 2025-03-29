@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebGLで起動してみよう</title>
+</head>
+<body>
+ <table border="1">
+<H3>WebGLで起動してみよう</H3>
+    <tr>
+      <td>
+前回、アセットモードでの起動等をやりましたが、そのままWebGLでの起動をやってみます<BR>
+アセットモードはまず、使うファイル群が全く違うので、WebGLで使うためのファイルをダウンロードしてください<BR>
+<A HREF="https://sabokoha.github.io/TestWebGL/WebGLSet.zip">WebGLSet</A>
+<BR>
+</td><td><img src="./AssetWGD.jpg" alt="背景" width="320" height="240"></td></tr>
+    <tr>
+      <td>
+それが出来たらアップロードします。アップロードされたURLが起動のURLです。<BR>
+アップロードまでしたら、動くか確かめて、動いたらURLをブックマークしておきましょう。<BR>
+アセットがないので動きませんが、URLを確認できればでOKです。<BR>
+</td><td><img src="./AssetWGB.jpg" alt="背景" width="320" height="240"></td></tr>
+    <tr>
+      <td>
+さて、起動の物とは別にStreamというフォルダを作って、中にWebGLフォーマットで作ったAssetBundleを全て入れます。<BR>
+このStreamを上げるUrlをStreamのフォルダ名まで入れたものがアップロードのUrlです。<BR>
+</td><td><img src="./AssetWGE.jpg" alt="背景" width="320" height="240"></td></tr>
+    <tr>
+      <td>
+そこまで出来たら、Configで設定します。<BR>
+KeyMakeのファイル指定でUrlというのがあるのですが、そちらの部分にAssetをアップロードするUrlを指定します。<BR>
+その後、アセットモードと同じように、StreamingAssetsの中にkeyを配置します<BR>
+KeyMakeのUrlは最初に確認したUrlと同じです。<BR>
+</td><td><img src="./AssetWGA.jpg" alt="背景" width="320" height="240"></td></tr>
+    <tr>
+      <td>
+後は一通りアップロードして、稼働したらOKです。<BR>
+動かない場合は、DebugTxtをtrueにしてアップロードしたURLを見るとURLが書いてあるのでそちらでファイルの確認等を行いましょう<BR>
+</td><td><img src="./AssetWGC.jpg" alt="背景" width="320" height="240"></td></tr>
