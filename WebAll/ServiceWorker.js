@@ -1,9 +1,9 @@
 const cacheName = "MAL-FullVoiceAdvMakerV1.0-1.0";
 const contentToCache = [
     "Build/WebGLM.loader.js",
-    "Build/WebGLM.framework.js.unityweb",
-    "Build/WebGLM.data.unityweb",
-    "Build/WebGLM.wasm.unityweb",
+    "Build/WebGLM.framework.js",
+    "Build/WebGLM.data",
+    "Build/WebGLM.wasm",
     "TemplateData/style.css"
 
 ];
