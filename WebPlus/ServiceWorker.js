@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-WASMPCORE2-1.0";
 const contentToCache = [
     "Build/WASM.loader.js",
-    "Build/WASM.framework.js.br",
-    "Build/WASM.data.br",
-    "Build/WASM.wasm.br",
+    "Build/WASM.framework.js",
+    "Build/WASM.data",
+    "Build/WASM.wasm",
     "TemplateData/style.css"
 
 ];
