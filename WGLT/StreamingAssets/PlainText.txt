@@ -1,1 +1,1 @@
-﻿"https://sabokoha.github.io/TestWebGL/WGLT/StreamingAssets/",kozatxt,false
+﻿UNIVARSALSYSTEM,HYDENBALL,true

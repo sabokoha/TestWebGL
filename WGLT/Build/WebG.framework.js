@@ -1993,13 +1993,13 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  3318064: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
- 3318125: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
- 3318189: function() {return Module.webglContextAttributes.powerPreference;},  
- 3318247: function() {Module['emscripten_get_now_backup'] = performance.now;},  
- 3318302: function($0) {performance.now = function() { return $0; };},  
- 3318350: function($0) {performance.now = function() { return $0; };},  
- 3318398: function() {performance.now = Module['emscripten_get_now_backup'];}
+  3323744: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
+ 3323805: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
+ 3323869: function() {return Module.webglContextAttributes.powerPreference;},  
+ 3323927: function() {Module['emscripten_get_now_backup'] = performance.now;},  
+ 3323982: function($0) {performance.now = function() { return $0; };},  
+ 3324030: function($0) {performance.now = function() { return $0; };},  
+ 3324078: function() {performance.now = Module['emscripten_get_now_backup'];}
 };
 
 
@@ -16391,6 +16391,7 @@ var asmLibraryArg = {
   "invoke_viijijiii": invoke_viijijiii,
   "invoke_viijji": invoke_viijji,
   "invoke_viijjii": invoke_viijjii,
+  "invoke_vij": invoke_vij,
   "invoke_viji": invoke_viji,
   "invoke_vijii": invoke_vijii,
   "invoke_vijiii": invoke_vijiii,
@@ -20651,6 +20652,17 @@ function invoke_fji(index,a1,a2,a3) {
   var sp = stackSave();
   try {
     return dynCall_fji(index,a1,a2,a3);
+  } catch(e) {
+    stackRestore(sp);
+    if (e !== e+0) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_vij(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    dynCall_vij(index,a1,a2,a3);
   } catch(e) {
     stackRestore(sp);
     if (e !== e+0) throw e;
