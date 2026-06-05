@@ -1,4 +1,4 @@
-const cacheName = "MAL-FullVoiceAdvMakerV1.0-1.8";
+const cacheName = "MAL-FullVoiceAdvMakerV1.0-1.9";
 const contentToCache = [
     "Build/WebGLM.loader.js",
     "Build/WebGLM.framework.js",
