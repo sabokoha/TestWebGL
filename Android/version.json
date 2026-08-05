@@ -1,6 +1,9 @@
 {
-  "latest_version": "0.9.2",
-  "release_date": "2026-08-5",
-  "description": "ウマ娘クイズの実装をしました",
-  "download_url": "https://booth.pm/ja/items/xxxxxx" 
+  "latest_version": "1.1.0",
+  "update_message": "【アップデートのお知らせ (v1.1.0)】\n・シナリオテキストを更新しました。",
+  "booth_url": "https://xxxx.booth.pm/items/123456",
+
+  "text_asset_name": "scenario_data.txt",
+  "text_asset_updated_at": "2026-08-05T16:01:00",
+  "text_asset_url": "https://<ユーザー名>.github.io/<リポジトリ名>/assets/scenario_data.txt"
 }
