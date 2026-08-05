@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.1.0",
+  "latest_version": "0.9.0",
   "update_message": "【アップデートのお知らせ (v1.1.0)】\n・シナリオテキストを更新しました。",
   "booth_url": "https://xxxx.booth.pm/items/123456",
 
   "text_asset_name": "scenario_data.txt",
-  "text_asset_updated_at": "2026‎/‎08/‎05‎/‎19/10",
+  "text_asset_updated_at": "2026‎/‎08/‎06/‎07/42",
   "text_asset_url": "https://<ユーザー名>.github.io/<リポジトリ名>/assets/scenario_data.txt"
 }
